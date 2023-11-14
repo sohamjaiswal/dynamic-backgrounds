@@ -17,7 +17,7 @@
     updateBackground();
   });
 </script>
-<div class="absolute custom-bg" bind:this={bgController} />
+<div class="fixed custom-bg" bind:this={bgController} />
 <!-- App Shell -->
 <AppShell>
 	<svelte:fragment slot="header">

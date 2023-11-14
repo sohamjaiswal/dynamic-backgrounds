@@ -12,7 +12,10 @@
 
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">
-		<form class="flex flex-col gap-4 card card-hover p-4" on:submit|preventDefault={handleSubmit}>
+		<h2 class="h2">
+			Enter a URL to update the background image of the page
+		</h2>
+		<form class="flex flex-col items-center gap-4 card card-hover p-4" on:submit|preventDefault={handleSubmit}>
 			<input class="input" type="text" placeholder="Enter image URL" bind:this={newBg} />
 			<button class="btn variant-filled-primary" type="submit">
 				Update BG to URL
